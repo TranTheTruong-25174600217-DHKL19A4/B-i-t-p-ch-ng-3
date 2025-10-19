@@ -1,0 +1,684 @@
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4
+$ git clone https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+Cloning into 'B-i-t-p-ch-ng-3'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4
+$ cd 'B-i-t-p-ch-ng-3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus.
+bash: Lorem: command not found
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git add readme.md
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git commit -m Chỉnh sửa nội dung README.md
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin
+Everything up-to-date
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ echo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus. > readme.md
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git commit -m chinh sua noi dung cuar tep readme.md
+[main 5ea45f8] chinh sua noi dung cuar tep readme.md
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git origin
+git: 'origin' is not a git command. See 'git --help'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 636 bytes | 636.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+   a828ebc..5ea45f8  main -> main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ echo Lorem ipsum dolor sit amet, consectetur adipiscing elit. > text_branch_1.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ echo Praesent ullamcorper orci eu erat placerat sodales. > text_branch_2.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ echo Integer sit amet nisi aliquam, tempor libero quis, cursus erat. > text_branch_3.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_4)
+$ echo Cras ac mi nec nisi porta ultrices sed non ante. > text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/User/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/.git/
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git commit -m Day len github
+[main d3490ea] Day len github
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 617 bytes | 617.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+   5ea45f8..d3490ea  main -> main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch --delete branch_4
+Deleted branch branch_4 (was 5ea45f8).
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin --delete branch_4
+error: unable to delete 'branch_4': remote ref does not exist
+error: failed to push some refs to 'https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git pull
+Already up to date.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git pull origin main
+From https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ mkdir folder
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ rm -r folder
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ mkdir main_folder
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ cd main_folder
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ echo Xin chao 1 > main_txt_1.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ echo Xin chao 2 > main_txt_2.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ echo Xin chao 3 > main_txt_3.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ git add .
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ git commit -m Day thu muc len github
+[main 6205842] Day thu muc len github
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ git push origin
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 446 bytes | 446.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+   d3490ea..6205842  main -> main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3/main_folder (main)
+$ cd ..
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git add .
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin
+Everything up-to-date
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git pull
+Already up to date.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ dir
+README.md    text_branch_1.txt  text_branch_3.txt
+main_folder  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Deletion of directory 'main_folder' failed. Should I try again? (y/n) n
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git pull origin main
+From https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3
+ * branch            main       -> FETCH_HEAD
+Updating 5ea45f8..6205842
+Fast-forward
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ text_branch_1.txt          | 1 +
+ text_branch_2.txt          | 1 +
+ text_branch_3.txt          | 1 +
+ text_branch_4.txt          | 1 +
+ 7 files changed, 7 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout branch_2
+Deletion of directory 'main_folder' failed. Should I try again? (y/n) n                       Switched to branch 'branch_2'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git pull origin main
+From https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3
+ * branch            main       -> FETCH_HEAD
+Updating 5ea45f8..6205842
+Fast-forward
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ text_branch_1.txt          | 1 +
+ text_branch_2.txt          | 1 +
+ text_branch_3.txt          | 1 +
+ text_branch_4.txt          | 1 +
+ 7 files changed, 7 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_3
+Deletion of directory 'main_folder' failed. Should I try again? (y/n) n
+Switched to branch 'branch_3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git pull origin main
+From https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3
+ * branch            main       -> FETCH_HEAD
+Updating 5ea45f8..6205842
+Fast-forward
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ text_branch_1.txt          | 1 +
+ text_branch_2.txt          | 1 +
+ text_branch_3.txt          | 1 +
+ text_branch_4.txt          | 1 +
+ 7 files changed, 7 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ echo Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim. > text_branch_1.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git add .
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git commit -m chỉnh sửa nội dung text_branch_1.txt
+[branch_5 1f63240] chỉnh sửa nội dung text_branch_1.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 676 bytes | 676.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3/pull/new/branch_5
+remote:
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ * [new branch]      branch_5 -> branch_5
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git branch -d branch_5> d
+error: branch 'branch_5d' not found
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with git config set advice.forceDeleteBranch false
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git branch -l
+* branch_1
+  branch_2
+  branch_3
+  branch_5
+  main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 1f63240).
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git branch -l
+* branch_1
+  branch_2
+  branch_3
+  main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ echo Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metucumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v etique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad tas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulumistique enim. > text_branch_1.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git commit -m chinh sua noi dung text_branch_1
+[branch_5 be3a92c] chinh sua noi dung text_branch_1
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 658 bytes | 658.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3/pull/new/br
+remote:
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ * [new branch]      branch_5 -> branch_5
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git brancj --D branch_5
+git: 'brancj' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+  branch_5
+* main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was be3a92c).
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$
+git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3/pull/new/branch_1
+remote:
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ * [new branch]      branch_1 -> branch_1
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git push origin branch_2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3/pull/new/branch_2
+remote:
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ * [new branch]      branch_2 -> branch_2
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git push origin branch_3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3/pull/new/branch_3
+remote:
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ * [new branch]      branch_3 -> branch_3
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git merge branch_1
+Already up to date.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git add .
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$
+git commit -m Giải quyết conflict khi merge branch_1 vào main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch --delete branch_2
+Deleted branch branch_2 (was 6205842).
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git branch --delete branch_3
+Deleted branch branch_3 (was 6205842).
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin –-delete branch_2
+error: src refspec –-delete does not match any
+error: src refspec branch_2 does not match any
+error: failed to push some refs to 'https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin --delete branch_3
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ - [deleted]         branch_3
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push origin --delete branch_2
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+ - [deleted]         branch_2
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 2), reused 2 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.44 KiB | 163.00 KiB/s, done.
+From https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3
+ * branch            main       -> FETCH_HEAD
+   6205842..08249dd  main       -> origin/main
+Updating 6205842..08249dd
+Fast-forward
+ text_branch_1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TranTheTruong-25174600217-DHKL19A4/B-i-t-p-ch-ng-3.git
+   6205842..08249dd  branch_1 -> branch_1
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use git pull to update your local branch)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git pull
+Updating 6205842..08249dd
+Fast-forward
+ text_branch_1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git push
+Everything up-to-date
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ git pull
+Already up to date.
+
+Shib@Shib MINGW64 ~/OneDrive/Documents/DHKL19A4/B-i-t-p-ch-ng-3 (main)
+$ touch Trần_Thế_Trường.txt
+
